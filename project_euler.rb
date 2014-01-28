@@ -17,15 +17,13 @@ total = final_nums.reduce(0, :+)
 
 233168
 
-puts "max number?"
-number = gets.chomp.to_i
-puts "first multiple?"
-m_1 = gets.chomp.to_i
-puts "second multiple?"
-m_2 = gets.chomp.to_i
+# puts "max number?"
+# number = gets.chomp.to_i
+# puts "first multiple?"
+# m_1 = gets.chomp.to_i
+# puts "second multiple?"
+# m_2 = gets.chomp.to_i
 
-problem_set = (1...number)
-numbers = problem_set.select
 
 
 
