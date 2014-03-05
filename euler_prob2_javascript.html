@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Euler Problem 2 JS!</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var fibonacci = function(){
+    var first = 0;
+    var second = 1;
+    var i = 0;
+    var sum = 0;
+    while (i<4000000){
+      i = first + second;
+      if(i % 2 === 0){
+        sum += i
+      }; 
+      first = second;
+      second = i;
+    };
+
+    return sum 
+  };
+  document.write(fibonacci());
+
+
+
+
+
+
+    </script>
+  </body>
+
+</html>
